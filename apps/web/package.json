@@ -2,6 +2,7 @@
   "name": "web",
   "version": "0.1.0",
   "type": "module",
+  
   "private": true,
   "scripts": {
     "dev": "next dev --port 3000",
@@ -12,6 +13,7 @@
   },
   "dependencies": {
     "@repo/ui": "*",
+    "db" : "*",
     "next": "16.2.0",
     "react": "^19.2.0",
     "react-dom": "^19.2.0"
