@@ -1,5 +1,6 @@
 import { prismaClient } from "db/client";
-
+import { config } from "dotenv"
+config({ path: "../../packages/db/.env" })
 Bun.serve({
     port: 8081,
     fetch(req, server) {
